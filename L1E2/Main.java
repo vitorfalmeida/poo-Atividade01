@@ -22,11 +22,6 @@ public class Main {
     elevador01.status();
     elevador01.sobe();
     elevador01.status();
-    elevador01.sobe();
-    elevador01.sobe();
-    elevador01.sobe();
-    elevador01.sobe();
-    elevador01.status();
 
   }
 
