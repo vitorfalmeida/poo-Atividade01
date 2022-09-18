@@ -13,9 +13,28 @@ public class Relogio {
     this.horario = this.hora + ":" + this.minuto + ":" + this.segundo;
   }
 
-  public void getHorario() {
-    System.out.println("\nA hora é " + this.horario);
+  public void avancar() {
 
+    this.segundo += 1;
   }
 
+  public String getHorario() {
+    System.out.println("\nA hora é " + this.horario);
+    return horario;
+  }
+
+  public void setHorario(String horario) {
+    this.horario = horario;
+  }
+
+  /*
+   * public void getHorario() {
+   * System.out.println("\nA hora é " + this.horario);
+   * 
+   * }
+   * 
+   * public void setHorario(String horario) {
+   * this.horario = horario;
+   * }
+   */
 }
