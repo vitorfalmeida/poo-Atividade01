@@ -30,10 +30,11 @@ public class Carro {
     // considerando o consumo do carro de 15km/l
     double consumo = getpercurso() / 15;
     if (consumo >= getQuantidadeCombustivel()) {
-      System.out.println("Combustivel insuficiente para trajeto");
+      System.out.println("\nCombustivel insuficiente para trajeto");
     } else {
-      System.out.println("Durante do trajeto de: " + getpercurso() + "Km" + "\nA quantidade de combustivél gasto foi :"
-          + consumo + "L");
+      System.out.println(
+          "\nTrajeto percorrido: " + getpercurso() + "Km" + "\nA quantidade de combustivel restante no tanque: "
+              + (getQuantidadeCombustivel() - consumo) + "L");
     }
   }
 
